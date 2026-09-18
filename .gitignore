@@ -1,2 +1,19 @@
 # cache and other artifacts produced by Lean's Lake build tool
+# Lake build output
 .lake/
+build/
+
+# Compiled Lean files
+*.olean
+*.ilean
+*.trace
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local overrides
+lakefile.olean
